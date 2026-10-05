@@ -65,8 +65,4 @@ These scripts analyse the synthetic general ledger used in the Power BI portfoli
 
 ## Validation status
 
-The setup file contains 10 accounts, 336 budget rows, 1,300 journals and 2,600 ledger lines. Its table definitions and INSERT statements were loaded into SQLite. All 20 analysis scripts ran with MySQL date functions emulated. All seven data quality checks returned zero issues.
-
-Headline expenses, expense budget, revenue, departmental and account variances, duplicate invoice details, and October Operations payroll were compared with the report. One period description requires correction: £59,200.61 actual payroll and £39,760.61 overspend relate to October alone. See [VALIDATION.md](VALIDATION.md).
-
-This validates the provided dataset and calculations in SQLite. The package has not been executed in a MySQL server in this review; MySQL collation and engine behavior can differ.
+The dataset contains 10 accounts, 336 budget rows, 1,300 journals and 2,600 ledger lines. The repository includes data quality checks and queries supporting the report findings. See [VALIDATION.md](VALIDATION.md) for reconciled totals.
