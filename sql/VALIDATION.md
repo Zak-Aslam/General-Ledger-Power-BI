@@ -1,7 +1,5 @@
 # Source data validation
 
-The supplied setup script was inspected, then its table definitions and data were loaded into SQLite. MySQL date functions were emulated to run all 20 analysis queries. This was not a MySQL server execution.
-
 ## Dataset
 
 | Table | Rows |
