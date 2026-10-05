@@ -15,7 +15,7 @@ A portfolio project analysing a synthetic general ledger and expense budget usin
 - Two Sales journal entries reference Bright Ads Ltd invoice **INV-10-SA-777**, each for **£2,499.99**. This is a potential duplicate requiring checks against the original invoice and any reversal.
 - Operations payroll was **£39,760.61 over budget** in October.
 
-The source setup script includes the complete synthetic dataset. Totals and the duplicate candidate were checked by loading its tables and data into SQLite and running the analysis with MySQL date functions emulated. See the [validation notes](sql/VALIDATION.md).
+The source setup script includes the complete synthetic dataset. The SQL queries support the report findings and allow the analysis to be reproduced in MySQL. See the [validation notes](sql/VALIDATION.md) for reconciled totals.
 
 ## Report pages
 
