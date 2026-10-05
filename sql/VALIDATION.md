@@ -32,17 +32,3 @@ All seven checks in query 19 returned zero issues, including orphan ledger refer
 | October Operations payroll variance | £39,760.61 over budget |
 
 Bright Ads Ltd invoice INV-10-SA-777 appears in Sales journals 1297 and 1298 on 14 and 15 October 2025. Each contains £2,499.99 of Marketing expense. This supports the potential duplicate finding; confirmation still requires supporting documentation.
-
-## Required report wording correction
-
-Finding 3 should refer to **October**, rather than September–October. £59,200.61 and £39,760.61 describe October only. September payroll is £22,271.29; combined September–October actual payroll is £81,471.90 against a £38,880.00 budget, a £42,591.90 overspend.
-
-Use this text on the Key Findings page:
-
-**3. Operations payroll exceeded budget in October**
-
-Operations payroll expenses were **£59,200.61** against a **£19,440** budget for October: **£39,760.61 over budget**.
-
-**Recommended action:** Check the payroll entries and staffing records for October, then confirm whether the budget needs updating.
-
-After changing the text, save the PBIX and export a fresh PDF before replacing the files on GitHub.
